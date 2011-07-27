@@ -7,7 +7,10 @@ USAGESTR = """Usage: fetchsub.py [-l langcode] videofile1 [videofile2 ...]
     XXXXXXX.chn.0.srt, XXXXXXX.chn.1.srt, XXXXXXX.chn.2.srt
 """
 
-"""url	see GetUrlByType()
+"""Author: sevenever
+Original source: http://sevenever.googlecode.com/svn-history/r193/trunk/misc/fetchsub.py
+
+url	see GetUrlByType()
 www.shooter.cn/api/subapi.php
 
 
