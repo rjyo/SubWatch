@@ -21,12 +21,12 @@
 		324A2E2613E0EF38001496FF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		324A2E2713E0EF38001496FF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		324A2E2813E0EF38001496FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		324A2E2B13E0EF38001496FF /* SubWatch-Info.plist */ = {isa = PBXFileReference; path = "SubWatch-Info.plist"; sourceTree = "<group>"; };
+		324A2E2B13E0EF38001496FF /* SubWatch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SubWatch-Info.plist"; sourceTree = "<group>"; };
 		324A2E2D13E0EF38001496FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		324A2E2F13E0EF38001496FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		324A2E3113E0EF38001496FF /* SubWatch-Prefix.pch */ = {isa = PBXFileReference; path = "SubWatch-Prefix.pch"; sourceTree = "<group>"; };
+		324A2E3113E0EF38001496FF /* SubWatch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SubWatch-Prefix.pch"; sourceTree = "<group>"; };
 		324A2E3313E0EF38001496FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		324A2E3513E0EF38001496FF /* SubWatchAppDelegate.h */ = {isa = PBXFileReference; path = SubWatchAppDelegate.h; sourceTree = "<group>"; };
+		324A2E3513E0EF38001496FF /* SubWatchAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubWatchAppDelegate.h; sourceTree = "<group>"; };
 		324A2E3613E0EF38001496FF /* SubWatchAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubWatchAppDelegate.m; sourceTree = "<group>"; };
 		324A2E3913E0EF38001496FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */

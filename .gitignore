@@ -1,0 +1,11 @@
+SharedLib
+.DS_Store
+build/
+*.pyc
+idaily_datastore
+SubWatch.xcodeproj/*.mode1v3
+SubWatch.xcodeproj/*.pbxuser
+*/xcuserdata
+xcuserdata/
+.idea/
+pkg
