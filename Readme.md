@@ -11,3 +11,4 @@
 
 1. Installed as a System Preference
 2. Check the mockup.png for details
+![mockup](mockup.png)
