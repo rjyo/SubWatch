@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		322BBB8F13E17B7E00DDB163 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 322BBB8D13E17B7E00DDB163 /* AppController.m */; };
 		324A2E2413E0EF38001496FF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 324A2E2313E0EF38001496FF /* Cocoa.framework */; };
 		324A2E2E13E0EF38001496FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 324A2E2C13E0EF38001496FF /* InfoPlist.strings */; };
 		324A2E3013E0EF38001496FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 324A2E2F13E0EF38001496FF /* main.m */; };
 		324A2E3713E0EF38001496FF /* SubWatchAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 324A2E3613E0EF38001496FF /* SubWatchAppDelegate.m */; };
 		324A2E3A13E0EF38001496FF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 324A2E3813E0EF38001496FF /* MainMenu.xib */; };
-		324A2E4213E0F348001496FF /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 324A2E4013E0F348001496FF /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		322BBB8D13E17B7E00DDB163 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		322BBB8E13E17B7E00DDB163 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
 		324A2E1F13E0EF38001496FF /* SubWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		324A2E2313E0EF38001496FF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		324A2E2613E0EF38001496FF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -28,7 +30,6 @@
 		324A2E3513E0EF38001496FF /* SubWatchAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubWatchAppDelegate.h; sourceTree = "<group>"; };
 		324A2E3613E0EF38001496FF /* SubWatchAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubWatchAppDelegate.m; sourceTree = "<group>"; };
 		324A2E3913E0EF38001496FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		324A2E4113E0F348001496FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text; name = en; path = en.lproj/Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +83,8 @@
 		324A2E2913E0EF38001496FF /* SubWatch */ = {
 			isa = PBXGroup;
 			children = (
+				322BBB8E13E17B7E00DDB163 /* AppController.h */,
+				322BBB8D13E17B7E00DDB163 /* AppController.m */,
 				324A2E3513E0EF38001496FF /* SubWatchAppDelegate.h */,
 				324A2E3613E0EF38001496FF /* SubWatchAppDelegate.m */,
 				324A2E3813E0EF38001496FF /* MainMenu.xib */,
@@ -97,7 +100,6 @@
 				324A2E2C13E0EF38001496FF /* InfoPlist.strings */,
 				324A2E2F13E0EF38001496FF /* main.m */,
 				324A2E3113E0EF38001496FF /* SubWatch-Prefix.pch */,
-				324A2E4013E0F348001496FF /* Readme.md */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -128,6 +130,7 @@
 		324A2E1613E0EF38001496FF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "ラクラクテクノロジーズ";
 			};
 			buildConfigurationList = 324A2E1913E0EF38001496FF /* Build configuration list for PBXProject "SubWatch" */;
@@ -154,7 +157,6 @@
 			files = (
 				324A2E2E13E0EF38001496FF /* InfoPlist.strings in Resources */,
 				324A2E3A13E0EF38001496FF /* MainMenu.xib in Resources */,
-				324A2E4213E0F348001496FF /* Readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +169,7 @@
 			files = (
 				324A2E3013E0EF38001496FF /* main.m in Sources */,
 				324A2E3713E0EF38001496FF /* SubWatchAppDelegate.m in Sources */,
+				322BBB8F13E17B7E00DDB163 /* AppController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,14 +190,6 @@
 				324A2E3913E0EF38001496FF /* en */,
 			);
 			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		324A2E4013E0F348001496FF /* Readme.md */ = {
-			isa = PBXVariantGroup;
-			children = (
-				324A2E4113E0F348001496FF /* en */,
-			);
-			name = Readme.md;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -248,6 +243,8 @@
 		324A2E3E13E0EF38001496FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				GCC_ENABLE_OBJC_GC = supported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SubWatch/SubWatch-Prefix.pch";
 				INFOPLIST_FILE = "SubWatch/SubWatch-Info.plist";
@@ -259,6 +256,8 @@
 		324A2E3F13E0EF38001496FF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				GCC_ENABLE_OBJC_GC = supported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SubWatch/SubWatch-Prefix.pch";
 				INFOPLIST_FILE = "SubWatch/SubWatch-Info.plist";
@@ -286,6 +285,7 @@
 				324A2E3F13E0EF38001496FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
