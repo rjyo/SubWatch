@@ -7,113 +7,126 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		322BBB8F13E17B7E00DDB163 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 322BBB8D13E17B7E00DDB163 /* AppController.m */; };
-		324A2E2413E0EF38001496FF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 324A2E2313E0EF38001496FF /* Cocoa.framework */; };
-		324A2E2E13E0EF38001496FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 324A2E2C13E0EF38001496FF /* InfoPlist.strings */; };
-		324A2E3013E0EF38001496FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 324A2E2F13E0EF38001496FF /* main.m */; };
-		324A2E3713E0EF38001496FF /* SubWatchAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 324A2E3613E0EF38001496FF /* SubWatchAppDelegate.m */; };
-		324A2E3A13E0EF38001496FF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 324A2E3813E0EF38001496FF /* MainMenu.xib */; };
+		1AED67D913E2A3A60043F395 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AED67D813E2A3A60043F395 /* Cocoa.framework */; };
+		1AED67DB13E2A3A60043F395 /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AED67DA13E2A3A60043F395 /* PreferencePanes.framework */; };
+		1AED67E513E2A3A60043F395 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AED67E313E2A3A60043F395 /* InfoPlist.strings */; };
+		1AED67E813E2A3A60043F395 /* SubWatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AED67E713E2A3A60043F395 /* SubWatch.h */; };
+		1AED67EA13E2A3A60043F395 /* SubWatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AED67E913E2A3A60043F395 /* SubWatch.m */; };
+		1AED67EC13E2A3A60043F395 /* SubWatch.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 1AED67EB13E2A3A60043F395 /* SubWatch.tiff */; };
+		1AED67EF13E2A3A60043F395 /* SubWatch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AED67ED13E2A3A60043F395 /* SubWatch.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		322BBB8D13E17B7E00DDB163 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
-		322BBB8E13E17B7E00DDB163 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
-		324A2E1F13E0EF38001496FF /* SubWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		324A2E2313E0EF38001496FF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		324A2E2613E0EF38001496FF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		324A2E2713E0EF38001496FF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		324A2E2813E0EF38001496FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		324A2E2B13E0EF38001496FF /* SubWatch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SubWatch-Info.plist"; sourceTree = "<group>"; };
-		324A2E2D13E0EF38001496FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		324A2E2F13E0EF38001496FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		324A2E3113E0EF38001496FF /* SubWatch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SubWatch-Prefix.pch"; sourceTree = "<group>"; };
-		324A2E3513E0EF38001496FF /* SubWatchAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubWatchAppDelegate.h; sourceTree = "<group>"; };
-		324A2E3613E0EF38001496FF /* SubWatchAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubWatchAppDelegate.m; sourceTree = "<group>"; };
-		324A2E3913E0EF38001496FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1AED67D513E2A3A60043F395 /* SubWatch.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubWatch.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AED67D813E2A3A60043F395 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1AED67DA13E2A3A60043F395 /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = System/Library/Frameworks/PreferencePanes.framework; sourceTree = SDKROOT; };
+		1AED67DD13E2A3A60043F395 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1AED67DE13E2A3A60043F395 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1AED67DF13E2A3A60043F395 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1AED67E213E2A3A60043F395 /* SubWatch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SubWatch-Info.plist"; sourceTree = "<group>"; };
+		1AED67E413E2A3A60043F395 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1AED67E613E2A3A60043F395 /* SubWatch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SubWatch-Prefix.pch"; sourceTree = "<group>"; };
+		1AED67E713E2A3A60043F395 /* SubWatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubWatch.h; sourceTree = "<group>"; };
+		1AED67E913E2A3A60043F395 /* SubWatch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubWatch.m; sourceTree = "<group>"; };
+		1AED67EB13E2A3A60043F395 /* SubWatch.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = SubWatch.tiff; sourceTree = "<group>"; };
+		1AED67EE13E2A3A60043F395 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SubWatch.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		324A2E1C13E0EF38001496FF /* Frameworks */ = {
+		1AED67D013E2A3A60043F395 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				324A2E2413E0EF38001496FF /* Cocoa.framework in Frameworks */,
+				1AED67D913E2A3A60043F395 /* Cocoa.framework in Frameworks */,
+				1AED67DB13E2A3A60043F395 /* PreferencePanes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		324A2E1413E0EF38001496FF = {
+		1AED67C813E2A3A60043F395 = {
 			isa = PBXGroup;
 			children = (
-				324A2E2913E0EF38001496FF /* SubWatch */,
-				324A2E2213E0EF38001496FF /* Frameworks */,
-				324A2E2013E0EF38001496FF /* Products */,
+				1AED67E013E2A3A60043F395 /* SubWatch */,
+				1AED67D713E2A3A60043F395 /* Frameworks */,
+				1AED67D613E2A3A60043F395 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		324A2E2013E0EF38001496FF /* Products */ = {
+		1AED67D613E2A3A60043F395 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				324A2E1F13E0EF38001496FF /* SubWatch.app */,
+				1AED67D513E2A3A60043F395 /* SubWatch.prefPane */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		324A2E2213E0EF38001496FF /* Frameworks */ = {
+		1AED67D713E2A3A60043F395 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				324A2E2313E0EF38001496FF /* Cocoa.framework */,
-				324A2E2513E0EF38001496FF /* Other Frameworks */,
+				1AED67D813E2A3A60043F395 /* Cocoa.framework */,
+				1AED67DA13E2A3A60043F395 /* PreferencePanes.framework */,
+				1AED67DC13E2A3A60043F395 /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		324A2E2513E0EF38001496FF /* Other Frameworks */ = {
+		1AED67DC13E2A3A60043F395 /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				324A2E2613E0EF38001496FF /* AppKit.framework */,
-				324A2E2713E0EF38001496FF /* CoreData.framework */,
-				324A2E2813E0EF38001496FF /* Foundation.framework */,
+				1AED67DD13E2A3A60043F395 /* AppKit.framework */,
+				1AED67DE13E2A3A60043F395 /* CoreData.framework */,
+				1AED67DF13E2A3A60043F395 /* Foundation.framework */,
 			);
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		324A2E2913E0EF38001496FF /* SubWatch */ = {
+		1AED67E013E2A3A60043F395 /* SubWatch */ = {
 			isa = PBXGroup;
 			children = (
-				322BBB8E13E17B7E00DDB163 /* AppController.h */,
-				322BBB8D13E17B7E00DDB163 /* AppController.m */,
-				324A2E3513E0EF38001496FF /* SubWatchAppDelegate.h */,
-				324A2E3613E0EF38001496FF /* SubWatchAppDelegate.m */,
-				324A2E3813E0EF38001496FF /* MainMenu.xib */,
-				324A2E2A13E0EF38001496FF /* Supporting Files */,
+				1AED67E713E2A3A60043F395 /* SubWatch.h */,
+				1AED67E913E2A3A60043F395 /* SubWatch.m */,
+				1AED67EB13E2A3A60043F395 /* SubWatch.tiff */,
+				1AED67ED13E2A3A60043F395 /* SubWatch.xib */,
+				1AED67E113E2A3A60043F395 /* Supporting Files */,
 			);
 			path = SubWatch;
 			sourceTree = "<group>";
 		};
-		324A2E2A13E0EF38001496FF /* Supporting Files */ = {
+		1AED67E113E2A3A60043F395 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				324A2E2B13E0EF38001496FF /* SubWatch-Info.plist */,
-				324A2E2C13E0EF38001496FF /* InfoPlist.strings */,
-				324A2E2F13E0EF38001496FF /* main.m */,
-				324A2E3113E0EF38001496FF /* SubWatch-Prefix.pch */,
+				1AED67E213E2A3A60043F395 /* SubWatch-Info.plist */,
+				1AED67E313E2A3A60043F395 /* InfoPlist.strings */,
+				1AED67E613E2A3A60043F395 /* SubWatch-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		1AED67D113E2A3A60043F395 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AED67E813E2A3A60043F395 /* SubWatch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		324A2E1E13E0EF38001496FF /* SubWatch */ = {
+		1AED67D413E2A3A60043F395 /* SubWatch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 324A2E3D13E0EF38001496FF /* Build configuration list for PBXNativeTarget "SubWatch" */;
+			buildConfigurationList = 1AED67F213E2A3A60043F395 /* Build configuration list for PBXNativeTarget "SubWatch" */;
 			buildPhases = (
-				324A2E1B13E0EF38001496FF /* Sources */,
-				324A2E1C13E0EF38001496FF /* Frameworks */,
-				324A2E1D13E0EF38001496FF /* Resources */,
+				1AED67CF13E2A3A60043F395 /* Sources */,
+				1AED67D013E2A3A60043F395 /* Frameworks */,
+				1AED67D113E2A3A60043F395 /* Headers */,
+				1AED67D213E2A3A60043F395 /* Resources */,
+				1AED67D313E2A3A60043F395 /* Rez */,
 			);
 			buildRules = (
 			);
@@ -121,89 +134,98 @@
 			);
 			name = SubWatch;
 			productName = SubWatch;
-			productReference = 324A2E1F13E0EF38001496FF /* SubWatch.app */;
-			productType = "com.apple.product-type.application";
+			productReference = 1AED67D513E2A3A60043F395 /* SubWatch.prefPane */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		324A2E1613E0EF38001496FF /* Project object */ = {
+		1AED67CA13E2A3A60043F395 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "ラクラクテクノロジーズ";
 			};
-			buildConfigurationList = 324A2E1913E0EF38001496FF /* Build configuration list for PBXProject "SubWatch" */;
+			buildConfigurationList = 1AED67CD13E2A3A60043F395 /* Build configuration list for PBXProject "SubWatch" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 324A2E1413E0EF38001496FF;
-			productRefGroup = 324A2E2013E0EF38001496FF /* Products */;
+			mainGroup = 1AED67C813E2A3A60043F395;
+			productRefGroup = 1AED67D613E2A3A60043F395 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				324A2E1E13E0EF38001496FF /* SubWatch */,
+				1AED67D413E2A3A60043F395 /* SubWatch */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		324A2E1D13E0EF38001496FF /* Resources */ = {
+		1AED67D213E2A3A60043F395 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				324A2E2E13E0EF38001496FF /* InfoPlist.strings in Resources */,
-				324A2E3A13E0EF38001496FF /* MainMenu.xib in Resources */,
+				1AED67E513E2A3A60043F395 /* InfoPlist.strings in Resources */,
+				1AED67EC13E2A3A60043F395 /* SubWatch.tiff in Resources */,
+				1AED67EF13E2A3A60043F395 /* SubWatch.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXRezBuildPhase section */
+		1AED67D313E2A3A60043F395 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		324A2E1B13E0EF38001496FF /* Sources */ = {
+		1AED67CF13E2A3A60043F395 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				324A2E3013E0EF38001496FF /* main.m in Sources */,
-				324A2E3713E0EF38001496FF /* SubWatchAppDelegate.m in Sources */,
-				322BBB8F13E17B7E00DDB163 /* AppController.m in Sources */,
+				1AED67EA13E2A3A60043F395 /* SubWatch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		324A2E2C13E0EF38001496FF /* InfoPlist.strings */ = {
+		1AED67E313E2A3A60043F395 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				324A2E2D13E0EF38001496FF /* en */,
+				1AED67E413E2A3A60043F395 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		324A2E3813E0EF38001496FF /* MainMenu.xib */ = {
+		1AED67ED13E2A3A60043F395 /* SubWatch.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				324A2E3913E0EF38001496FF /* en */,
+				1AED67EE13E2A3A60043F395 /* en */,
 			);
-			name = MainMenu.xib;
+			name = SubWatch.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		324A2E3B13E0EF38001496FF /* Debug */ = {
+		1AED67F013E2A3A60043F395 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -215,85 +237,85 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
-		324A2E3C13E0EF38001496FF /* Release */ = {
+		1AED67F113E2A3A60043F395 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		324A2E3E13E0EF38001496FF /* Debug */ = {
+		1AED67F313E2A3A60043F395 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CURRENT_PROJECT_VERSION = 1;
-				GCC_ENABLE_OBJC_GC = supported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SubWatch/SubWatch-Prefix.pch";
 				INFOPLIST_FILE = "SubWatch/SubWatch-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VERSIONING_SYSTEM = "apple-generic";
-				WRAPPER_EXTENSION = app;
+				WRAPPER_EXTENSION = prefPane;
 			};
 			name = Debug;
 		};
-		324A2E3F13E0EF38001496FF /* Release */ = {
+		1AED67F413E2A3A60043F395 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CURRENT_PROJECT_VERSION = 1;
-				GCC_ENABLE_OBJC_GC = supported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SubWatch/SubWatch-Prefix.pch";
 				INFOPLIST_FILE = "SubWatch/SubWatch-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VERSIONING_SYSTEM = "apple-generic";
-				WRAPPER_EXTENSION = app;
+				WRAPPER_EXTENSION = prefPane;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		324A2E1913E0EF38001496FF /* Build configuration list for PBXProject "SubWatch" */ = {
+		1AED67CD13E2A3A60043F395 /* Build configuration list for PBXProject "SubWatch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				324A2E3B13E0EF38001496FF /* Debug */,
-				324A2E3C13E0EF38001496FF /* Release */,
+				1AED67F013E2A3A60043F395 /* Debug */,
+				1AED67F113E2A3A60043F395 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		324A2E3D13E0EF38001496FF /* Build configuration list for PBXNativeTarget "SubWatch" */ = {
+		1AED67F213E2A3A60043F395 /* Build configuration list for PBXNativeTarget "SubWatch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				324A2E3E13E0EF38001496FF /* Debug */,
-				324A2E3F13E0EF38001496FF /* Release */,
+				1AED67F313E2A3A60043F395 /* Debug */,
+				1AED67F413E2A3A60043F395 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 324A2E1613E0EF38001496FF /* Project object */;
+	rootObject = 1AED67CA13E2A3A60043F395 /* Project object */;
 }
