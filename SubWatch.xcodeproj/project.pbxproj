@@ -10,8 +10,8 @@
 		1AED67D913E2A3A60043F395 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AED67D813E2A3A60043F395 /* Cocoa.framework */; };
 		1AED67DB13E2A3A60043F395 /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AED67DA13E2A3A60043F395 /* PreferencePanes.framework */; };
 		1AED67E513E2A3A60043F395 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AED67E313E2A3A60043F395 /* InfoPlist.strings */; };
-		1AED67E813E2A3A60043F395 /* SubWatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AED67E713E2A3A60043F395 /* SubWatch.h */; };
-		1AED67EA13E2A3A60043F395 /* SubWatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AED67E913E2A3A60043F395 /* SubWatch.m */; };
+		1AED67E813E2A3A60043F395 /* SubWatchPrefPane.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AED67E713E2A3A60043F395 /* SubWatchPrefPane.h */; };
+		1AED67EA13E2A3A60043F395 /* SubWatchPrefPane.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AED67E913E2A3A60043F395 /* SubWatchPrefPane.m */; };
 		1AED67EC13E2A3A60043F395 /* SubWatch.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 1AED67EB13E2A3A60043F395 /* SubWatch.tiff */; };
 		1AED67EF13E2A3A60043F395 /* SubWatch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AED67ED13E2A3A60043F395 /* SubWatch.xib */; };
 /* End PBXBuildFile section */
@@ -26,8 +26,8 @@
 		1AED67E213E2A3A60043F395 /* SubWatch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SubWatch-Info.plist"; sourceTree = "<group>"; };
 		1AED67E413E2A3A60043F395 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1AED67E613E2A3A60043F395 /* SubWatch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SubWatch-Prefix.pch"; sourceTree = "<group>"; };
-		1AED67E713E2A3A60043F395 /* SubWatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubWatch.h; sourceTree = "<group>"; };
-		1AED67E913E2A3A60043F395 /* SubWatch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubWatch.m; sourceTree = "<group>"; };
+		1AED67E713E2A3A60043F395 /* SubWatchPrefPane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubWatchPrefPane.h; sourceTree = "<group>"; };
+		1AED67E913E2A3A60043F395 /* SubWatchPrefPane.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubWatchPrefPane.m; sourceTree = "<group>"; };
 		1AED67EB13E2A3A60043F395 /* SubWatch.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = SubWatch.tiff; sourceTree = "<group>"; };
 		1AED67EE13E2A3A60043F395 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SubWatch.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,8 +85,8 @@
 		1AED67E013E2A3A60043F395 /* SubWatch */ = {
 			isa = PBXGroup;
 			children = (
-				1AED67E713E2A3A60043F395 /* SubWatch.h */,
-				1AED67E913E2A3A60043F395 /* SubWatch.m */,
+				1AED67E713E2A3A60043F395 /* SubWatchPrefPane.h */,
+				1AED67E913E2A3A60043F395 /* SubWatchPrefPane.m */,
 				1AED67EB13E2A3A60043F395 /* SubWatch.tiff */,
 				1AED67ED13E2A3A60043F395 /* SubWatch.xib */,
 				1AED67E113E2A3A60043F395 /* Supporting Files */,
@@ -111,7 +111,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AED67E813E2A3A60043F395 /* SubWatch.h in Headers */,
+				1AED67E813E2A3A60043F395 /* SubWatchPrefPane.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,7 +190,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AED67EA13E2A3A60043F395 /* SubWatch.m in Sources */,
+				1AED67EA13E2A3A60043F395 /* SubWatchPrefPane.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +314,7 @@
 				1AED67F413E2A3A60043F395 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

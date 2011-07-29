@@ -31,6 +31,6 @@
 	<key>NSPrefPaneIconLabel</key>
 	<string>SubWatch</string>
 	<key>NSPrincipalClass</key>
-	<string>SubWatch</string>
+	<string>SubWatchPrefPane</string>
 </dict>
 </plist>
