@@ -1,5 +1,5 @@
 //
-//  SubWatchPrefPane.h
+//  CRSubWatchPrefPane.h
 //  SubWatch
 //
 //  Created by James Chen on 7/29/11.
@@ -8,7 +8,7 @@
 
 #import <PreferencePanes/PreferencePanes.h>
 
-@interface SubWatchPrefPane : NSPreferencePane
+@interface CRSubWatchPrefPane : NSPreferencePane
 
 - (void)mainViewDidLoad;
 

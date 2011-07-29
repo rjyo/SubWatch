@@ -29,8 +29,8 @@
 	<key>NSPrefPaneIconFile</key>
 	<string>SubWatch.tiff</string>
 	<key>NSPrefPaneIconLabel</key>
-	<string>SubWatch</string>
+	<string></string>
 	<key>NSPrincipalClass</key>
-	<string>SubWatchPrefPane</string>
+	<string>CRSubWatchPrefPane</string>
 </dict>
 </plist>
