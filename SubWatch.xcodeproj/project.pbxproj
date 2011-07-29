@@ -143,6 +143,7 @@
 		1AED67CA13E2A3A60043F395 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "ラクラクテクノロジーズ";
 			};
 			buildConfigurationList = 1AED67CD13E2A3A60043F395 /* Build configuration list for PBXProject "SubWatch" */;
