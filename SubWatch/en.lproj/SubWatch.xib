@@ -490,7 +490,7 @@
 										<reference key="NSNextKeyView" ref="270106115"/>
 										<string key="NSReuseIdentifierKey">_NS:463</string>
 									</object>
-									<string key="NSLabel">Settings</string>
+									<string key="NSLabel">Watch</string>
 									<reference key="NSColor" ref="1051061035"/>
 									<reference key="NSTabView" ref="577202808"/>
 								</object>
@@ -559,7 +559,7 @@
 										<reference key="NSNextKeyView" ref="963824738"/>
 										<string key="NSReuseIdentifierKey">_NS:473</string>
 									</object>
-									<string key="NSLabel">Logs</string>
+									<string key="NSLabel">Log</string>
 									<reference key="NSColor" ref="1051061035"/>
 									<reference key="NSTabView" ref="577202808"/>
 								</object>
